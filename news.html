@@ -330,18 +330,36 @@
     }
   ];
 
-  const PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
-
   let allArticles = [];
   let activeFilter = 'all';
   let lastUpdated = null;
 
+  function getText(el, tag) {
+    const node = el.querySelector(tag);
+    if (!node) return '';
+    if (tag === 'link') {
+      const next = node.nextSibling;
+      if (next && next.nodeType === 3) return next.textContent.trim();
+      return node.textContent.trim();
+    }
+    return node.textContent.trim();
+  }
+
   async function fetchFeed(feed) {
-    const resp = await fetch(PROXY + encodeURIComponent(feed.url));
+    const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feed.url);
+    const resp = await fetch(proxyUrl);
     const data = await resp.json();
-    if (data.status !== 'ok') throw new Error('Feed error: ' + feed.name);
-    return data.items.map(item => ({
-      ...item,
+    if (!data.contents) throw new Error('No content for ' + feed.name);
+
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, 'text/xml');
+    const items = Array.from(xml.querySelectorAll('item'));
+
+    return items.map(item => ({
+      title: getText(item, 'title'),
+      link: getText(item, 'link'),
+      pubDate: getText(item, 'pubDate'),
+      description: item.querySelector('description')?.textContent || '',
       source: feed.name,
       sourceId: feed.id,
       accentClass: feed.accentClass,
