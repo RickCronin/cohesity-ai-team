@@ -346,14 +346,14 @@
   }
 
   async function fetchFeed(feed) {
-    const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feed.url);
+    const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(feed.url);
     const resp = await fetch(proxyUrl);
-    const data = await resp.json();
-    if (!data.contents) throw new Error('No content for ' + feed.name);
+    if (!resp.ok) throw new Error('Fetch failed for ' + feed.name);
+    const text = await resp.text();
 
     const parser = new DOMParser();
-    const xml = parser.parseFromString(data.contents, 'text/xml');
-    const items = Array.from(xml.querySelectorAll('item'));
+    const xml = parser.parseFromString(text, 'text/xml');
+    const items = Array.from(xml.querySelectorAll('item')).slice(0, 15);
 
     return items.map(item => ({
       title: getText(item, 'title'),
