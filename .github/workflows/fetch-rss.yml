@@ -1,0 +1,84 @@
+name: Fetch RSS Feeds
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-rss:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch RSS feeds and build cache
+        run: |
+          python3 << 'EOF'
+          import urllib.request
+          import json
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+
+          FEEDS = [
+            {'id': 'mit',  'name': 'MIT Tech Review', 'url': 'https://www.technologyreview.com/feed/'},
+            {'id': 'tldr', 'name': 'TLDR AI',         'url': 'https://tldr.tech/api/rss/ai'},
+          ]
+
+          articles = []
+          for feed in FEEDS:
+            try:
+              req = urllib.request.Request(
+                feed['url'],
+                headers={'User-Agent': 'Mozilla/5.0 (compatible; RSSBot/1.0)'}
+              )
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                xml_data = resp.read().decode('utf-8', errors='replace')
+
+              root = ET.fromstring(xml_data)
+              items = root.findall('.//item')[:15]
+
+              for item in items:
+                title = item.findtext('title', '').strip()
+                link  = item.findtext('link',  '').strip()
+                if not link:
+                  el = item.find('{http://www.w3.org/2005/Atom}link')
+                  if el is not None:
+                    link = el.get('href', '')
+                pub_date = item.findtext('pubDate', '').strip()
+                desc = item.findtext('description', '').strip()
+
+                articles.append({
+                  'title':       title,
+                  'link':        link,
+                  'pubDate':     pub_date,
+                  'description': desc,
+                  'source':      feed['name'],
+                  'sourceId':    feed['id'],
+                  'accentClass': 'accent-' + feed['id'],
+                  'sourceClass': 'source-' + feed['id'],
+                })
+              print(f"  {feed['name']}: {len(items)} articles")
+            except Exception as e:
+              print(f"  ERROR fetching {feed['name']}: {e}")
+
+          output = {
+            'articles': articles,
+            'updated':  datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+          }
+
+          with open('rss-cache.json', 'w', encoding='utf-8') as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+
+          print(f"Saved {len(articles)} total articles to rss-cache.json")
+          EOF
+
+      - name: Commit and push cache
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rss-cache.json
+          git diff --staged --quiet || git commit -m "chore: update RSS cache [skip ci]"
+          git push
