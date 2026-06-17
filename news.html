@@ -313,59 +313,9 @@
 </div>
 
 <script>
-  const FEEDS = [
-    {
-      id: 'mit',
-      name: 'MIT Tech Review',
-      url: 'https://www.technologyreview.com/feed/',
-      accentClass: 'accent-mit',
-      sourceClass: 'source-mit'
-    },
-    {
-      id: 'tldr',
-      name: 'TLDR AI',
-      url: 'https://tldr.tech/api/rss/ai',
-      accentClass: 'accent-tldr',
-      sourceClass: 'source-tldr'
-    }
-  ];
-
   let allArticles = [];
   let activeFilter = 'all';
   let lastUpdated = null;
-
-  function getText(el, tag) {
-    const node = el.querySelector(tag);
-    if (!node) return '';
-    if (tag === 'link') {
-      const next = node.nextSibling;
-      if (next && next.nodeType === 3) return next.textContent.trim();
-      return node.textContent.trim();
-    }
-    return node.textContent.trim();
-  }
-
-  async function fetchFeed(feed) {
-    const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(feed.url);
-    const resp = await fetch(proxyUrl);
-    if (!resp.ok) throw new Error('Fetch failed for ' + feed.name);
-    const text = await resp.text();
-
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(text, 'text/xml');
-    const items = Array.from(xml.querySelectorAll('item')).slice(0, 15);
-
-    return items.map(item => ({
-      title: getText(item, 'title'),
-      link: getText(item, 'link'),
-      pubDate: getText(item, 'pubDate'),
-      description: item.querySelector('description')?.textContent || '',
-      source: feed.name,
-      sourceId: feed.id,
-      accentClass: feed.accentClass,
-      sourceClass: feed.sourceClass
-    }));
-  }
 
   function stripHtml(html) {
     const div = document.createElement('div');
@@ -432,20 +382,18 @@
     btn.classList.add('spinning');
 
     try {
-      const results = await Promise.allSettled(FEEDS.map(f => fetchFeed(f)));
-      allArticles = [];
+      // Static JSON cached by GitHub Actions — no CORS proxy needed
+      const resp = await fetch('/cohesity-ai-team/rss-cache.json?t=' + Date.now());
+      if (!resp.ok) throw new Error('Feed cache not available (status ' + resp.status + ')');
+      const data = await resp.json();
+      allArticles = data.articles || [];
 
-      results.forEach(r => {
-        if (r.status === 'fulfilled') allArticles.push(...r.value);
-      });
-
-      // Sort by date descending
       allArticles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
-      lastUpdated = new Date();
+      lastUpdated = data.updated ? new Date(data.updated) : new Date();
       const total = allArticles.length;
       document.getElementById('statusMsg').innerHTML =
-        `<strong>${total}</strong> articles · Updated ${lastUpdated.toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit'})}`;
+        `<strong>${total}</strong> articles · Cached ${lastUpdated.toLocaleDateString('en-GB', {day:'numeric',month:'short'})} ${lastUpdated.toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit'})}`;
 
       filterArticles();
     } catch (e) {
@@ -461,9 +409,7 @@
 
   function refresh() { loadFeeds(); }
 
-  // Auto-refresh every 20 minutes
   loadFeeds();
-  setInterval(loadFeeds, 20 * 60 * 1000);
 </script>
 </body>
 </html>
