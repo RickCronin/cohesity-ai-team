@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Clock — Cohesity AI Specialist Team</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    background: #0a0f1e;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 20px 48px;
+    color: #fff;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .logo-dot {
+    width: 12px; height: 12px;
+    background: #00B388;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #00B388;
+  }
+
+  .logo-text {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00B388;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #fff;
+  }
+
+  header h1 span { color: #00B388; }
+
+  #viewer-zone {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.5px;
+  }
+
+  #viewer-zone strong { color: #00B388; }
+
+  .clocks-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    width: 100%;
+    max-width: 1280px;
+  }
+
+  .clock-card {
+    background: linear-gradient(145deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 16px 14px 14px;
+    position: relative;
+    overflow: hidden;
+    min-width: 0;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+
+  .clock-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0,179,136,0.4);
+  }
+
+  .clock-card.you-are-here {
+    border-color: #00B388;
+    background: linear-gradient(145deg, rgba(0,179,136,0.15) 0%, rgba(0,179,136,0.05) 100%);
+  }
+
+  .clock-card.you-are-here::before {
+    content: '📍 You';
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #00B388;
+    background: rgba(0,179,136,0.15);
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,179,136,0.4);
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .flag { font-size: 1.4rem; line-height: 1; }
+
+  .card-location h2 {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .card-location p {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.45);
+    margin-top: 1px;
+  }
+
+  .digital-clock {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-variant-numeric: tabular-nums;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 5px;
+    white-space: nowrap;
+  }
+
+  .clock-card.you-are-here .digital-clock { color: #00B388; }
+
+  .ampm {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+    margin-left: 4px;
+  }
+
+  .clock-card.you-are-here .ampm { color: rgba(0,179,136,0.7); }
+
+  .date-line {
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 16px;
+  }
+
+  .clock-card.you-are-here .date-line { color: rgba(0,179,136,0.6); }
+
+  .utc-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.5);
+  }
+
+  .clock-card.you-are-here .utc-badge {
+    background: rgba(0,179,136,0.1);
+    border-color: rgba(0,179,136,0.3);
+    color: #00B388;
+  }
+
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #00B388, #005B41);
+    border-radius: 0 0 20px 20px;
+    transition: width 1s linear;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.25);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-dot"></div>
+    <span class="logo-text">Cohesity</span>
+    <div class="logo-dot"></div>
+  </div>
+  <h1>AI Specialist Team <span>World Clock</span></h1>
+  <div id="viewer-zone">Detecting your timezone…</div>
+</header>
+
+<div class="clocks-grid" id="clocks-grid"></div>
+
+<footer>Cohesity AI Specialist Team &nbsp;·&nbsp; Clocks update every second</footer>
+
+<script>
+const REGIONS = [
+  { id: 'west', flag: '🇺🇸', city: 'San Francisco', region: 'West Coast',     tz: 'America/Los_Angeles' },
+  { id: 'east', flag: '🇺🇸', city: 'New York',       region: 'East Coast',     tz: 'America/New_York' },
+  { id: 'uk',   flag: '🇬🇧', city: 'London',         region: 'United Kingdom', tz: 'Europe/London' },
+  { id: 'sg',   flag: '🇸🇬', city: 'Singapore',      region: 'APAC',           tz: 'Asia/Singapore' },
+  { id: 'dxb',  flag: '🇦🇪', city: 'Dubai',          region: 'Middle East',    tz: 'Asia/Dubai' },
+];
+
+const viewerTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+function tzMatch(tz) {
+  if (!viewerTZ) return false;
+  if (viewerTZ === tz) return true;
+  const v = viewerTZ.toLowerCase();
+  if (tz === 'America/Los_Angeles' && (v.includes('angeles') || v.includes('pacific') || v.includes('vancouver'))) return true;
+  if (tz === 'America/New_York' && (v.includes('new_york') || v.includes('eastern') || v.includes('toronto'))) return true;
+  if (tz === 'Europe/London' && (v.includes('london') || v.includes('dublin') || v.includes('lisbon'))) return true;
+  if (tz === 'Asia/Singapore' && (v.includes('singapore') || v.includes('kuala') || v.includes('jakarta') || v.includes('hong_kong'))) return true;
+  return false;
+}
+
+function formatTime(tz) {
+  const parts = {};
+  new Intl.DateTimeFormat('en-US', {
+    timeZone: tz, hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true,
+  }).formatToParts(new Date()).forEach(p => parts[p.type] = p.value);
+  return parts;
+}
+
+function formatDate(tz) {
+  return new Intl.DateTimeFormat('en-GB', {
+    timeZone: tz, weekday: 'long', day: 'numeric', month: 'long',
+  }).format(new Date());
+}
+
+function getUTCOffset(tz) {
+  const now = new Date();
+  const utc = new Date(now.toLocaleString('en-US', { timeZone: 'UTC' }));
+  const local = new Date(now.toLocaleString('en-US', { timeZone: tz }));
+  const diff = (local - utc) / 3600000;
+  const sign = diff >= 0 ? '+' : '−';
+  const hrs = Math.floor(Math.abs(diff));
+  const mins = Math.round((Math.abs(diff) - hrs) * 60);
+  return 'UTC' + sign + hrs + (mins ? ':' + String(mins).padStart(2,'0') : '');
+}
+
+// Build cards
+const grid = document.getElementById('clocks-grid');
+REGIONS.forEach(r => {
+  const isYou = tzMatch(r.tz);
+  const card = document.createElement('div');
+  card.className = 'clock-card' + (isYou ? ' you-are-here' : '');
+  card.id = 'card-' + r.id;
+  card.innerHTML = `
+    <div class="card-top">
+      <span class="flag">${r.flag}</span>
+      <div class="card-location">
+        <h2>${r.city}</h2>
+        <p>${r.region}</p>
+      </div>
+    </div>
+    <div class="digital-clock" id="time-${r.id}"></div>
+    <div class="date-line" id="date-${r.id}"></div>
+    <span class="utc-badge" id="utc-${r.id}"></span>
+    <div class="progress-bar" id="prog-${r.id}"></div>
+  `;
+  grid.appendChild(card);
+});
+
+// Viewer label
+const vzEl = document.getElementById('viewer-zone');
+if (viewerTZ) {
+  const matched = REGIONS.find(r => tzMatch(r.tz));
+  vzEl.innerHTML = matched
+    ? `Your timezone: <strong>${viewerTZ}</strong> — you're on the <strong>${matched.city}</strong> clock`
+    : `Your timezone: <strong>${viewerTZ}</strong>`;
+} else {
+  vzEl.textContent = '';
+}
+
+function tick() {
+  const secs = new Date().getSeconds();
+  REGIONS.forEach(r => {
+    const t = formatTime(r.tz);
+    document.getElementById('time-' + r.id).innerHTML =
+      `${t.hour}:${t.minute}<span style="font-size:1.1rem;opacity:0.5">:${t.second}</span><span class="ampm">${t.dayPeriod}</span>`;
+    document.getElementById('date-' + r.id).textContent = formatDate(r.tz);
+    document.getElementById('utc-' + r.id).textContent = getUTCOffset(r.tz);
+    document.getElementById('prog-' + r.id).style.width = ((secs / 59) * 100) + '%';
+  });
+}
+
+tick();
+setInterval(tick, 1000);
+</script>
+</body>
+</html>
