@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI & Tech News — Cohesity AI Specialist Team</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, #00994d 0%, #00B388 55%, #2ef075 100%);
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      box-shadow: 0 4px 24px rgba(0, 179, 136, 0.3);
+    }
+
+    .header-left { display: flex; align-items: center; gap: 14px; }
+
+    .header-icon {
+      width: 42px; height: 42px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+    }
+
+    .header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.3px;
+    }
+
+    .header p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.85);
+      margin-top: 2px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 7px 16px;
+      border-radius: 20px;
+      border: 2px solid rgba(255,255,255,0.4);
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      background: #fff;
+      color: #00994d;
+      border-color: #fff;
+    }
+
+    .refresh-btn {
+      padding: 7px 16px;
+      border-radius: 20px;
+      border: none;
+      background: rgba(0,0,0,0.25);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+
+    .refresh-btn:hover { background: rgba(0,0,0,0.4); }
+
+    .refresh-icon { transition: transform 0.5s; }
+    .refresh-btn.spinning .refresh-icon { animation: spin 0.7s linear infinite; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Status bar ── */
+    .status-bar {
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+      padding: 10px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+      color: #8b949e;
+    }
+
+    .source-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+
+    .source-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .pill-mit  { background: rgba(255,80,80,0.15);  color: #ff8080; border: 1px solid rgba(255,80,80,0.25); }
+    .pill-tldr { background: rgba(46,240,117,0.12); color: #2ef075; border: 1px solid rgba(46,240,117,0.2); }
+
+    .dot { width: 6px; height: 6px; border-radius: 50%; }
+    .dot-mit  { background: #ff5050; }
+    .dot-tldr { background: #2ef075; }
+
+    /* ── Search ── */
+    .search-bar {
+      padding: 12px 32px;
+      background: #0d1117;
+    }
+
+    .search-input {
+      width: 100%;
+      max-width: 500px;
+      padding: 9px 16px 9px 38px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      color: #e6edf3;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238b949e' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 12px center;
+    }
+
+    .search-input:focus { border-color: #00B388; }
+    .search-input::placeholder { color: #484f58; }
+
+    /* ── Grid ── */
+    .feed-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      padding: 16px 32px 32px;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .card:hover {
+      border-color: #00B388;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 179, 136, 0.15);
+    }
+
+    .card-accent {
+      height: 3px;
+    }
+
+    .accent-mit  { background: linear-gradient(90deg, #e34545, #ff8c8c); }
+    .accent-tldr { background: linear-gradient(90deg, #00994d, #2ef075); }
+
+    .card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-source { font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+    .source-mit  { color: #ff8080; }
+    .source-tldr { color: #2ef075; }
+
+    .card-date { font-size: 11px; color: #484f58; }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #e6edf3;
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card:hover .card-title { color: #58d4b4; }
+
+    .card-desc {
+      font-size: 13px;
+      color: #8b949e;
+      line-height: 1.55;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      flex: 1;
+    }
+
+    .card-footer {
+      padding: 10px 16px;
+      border-top: 1px solid #21262d;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 12px;
+      color: #484f58;
+      gap: 4px;
+    }
+
+    .card:hover .card-footer { color: #00B388; }
+
+    /* ── States ── */
+    .state-grid {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      color: #484f58;
+    }
+
+    .state-icon { font-size: 48px; margin-bottom: 16px; }
+    .state-title { font-size: 18px; font-weight: 600; color: #8b949e; margin-bottom: 8px; }
+    .state-msg { font-size: 14px; }
+
+    .spinner {
+      width: 40px; height: 40px;
+      border: 3px solid #21262d;
+      border-top-color: #00B388;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    /* ── Count badge ── */
+    .count-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #8b949e;
+    }
+
+    .count-badge strong { color: #e6edf3; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="header-icon">📰</div>
+    <div>
+      <h1>AI & Tech News</h1>
+      <p>Live feeds from MIT Technology Review &amp; TLDR AI</p>
+    </div>
+  </div>
+  <div class="header-right">
+    <button class="filter-btn active" data-source="all" onclick="setFilter('all',this)">All</button>
+    <button class="filter-btn" data-source="mit" onclick="setFilter('mit',this)">MIT Tech Review</button>
+    <button class="filter-btn" data-source="tldr" onclick="setFilter('tldr',this)">TLDR AI</button>
+    <button class="refresh-btn" onclick="refresh()" id="refreshBtn">
+      <span class="refresh-icon" id="refreshIcon">↻</span> Refresh
+    </button>
+  </div>
+</div>
+
+<div class="status-bar">
+  <div class="source-pills">
+    <span class="source-pill pill-mit"><span class="dot dot-mit"></span>MIT Technology Review</span>
+    <span class="source-pill pill-tldr"><span class="dot dot-tldr"></span>TLDR AI</span>
+  </div>
+  <div id="statusMsg" class="count-badge">Loading feeds…</div>
+</div>
+
+<div class="search-bar">
+  <input class="search-input" type="text" id="searchInput" placeholder="Search articles…" oninput="filterArticles()">
+</div>
+
+<div class="feed-grid" id="grid">
+  <div class="state-grid">
+    <div class="spinner"></div>
+    <div class="state-title">Fetching latest articles</div>
+    <div class="state-msg">Pulling from MIT Technology Review and TLDR AI…</div>
+  </div>
+</div>
+
+<script>
+  const FEEDS = [
+    {
+      id: 'mit',
+      name: 'MIT Tech Review',
+      url: 'https://www.technologyreview.com/feed/',
+      accentClass: 'accent-mit',
+      sourceClass: 'source-mit'
+    },
+    {
+      id: 'tldr',
+      name: 'TLDR AI',
+      url: 'https://tldr.tech/ai/rss',
+      accentClass: 'accent-tldr',
+      sourceClass: 'source-tldr'
+    }
+  ];
+
+  const PROXY = 'https://api.rss2json.com/v1/api.json?count=20&rss_url=';
+
+  let allArticles = [];
+  let activeFilter = 'all';
+  let lastUpdated = null;
+
+  async function fetchFeed(feed) {
+    const resp = await fetch(PROXY + encodeURIComponent(feed.url));
+    const data = await resp.json();
+    if (data.status !== 'ok') throw new Error('Feed error: ' + feed.name);
+    return data.items.map(item => ({
+      ...item,
+      source: feed.name,
+      sourceId: feed.id,
+      accentClass: feed.accentClass,
+      sourceClass: feed.sourceClass
+    }));
+  }
+
+  function stripHtml(html) {
+    const div = document.createElement('div');
+    div.innerHTML = html || '';
+    return div.textContent || div.innerText || '';
+  }
+
+  function formatDate(dateStr) {
+    const d = new Date(dateStr);
+    if (isNaN(d)) return '';
+    const now = new Date();
+    const diff = Math.floor((now - d) / 60000);
+    if (diff < 60) return diff + 'm ago';
+    if (diff < 1440) return Math.floor(diff / 60) + 'h ago';
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  }
+
+  function renderCards(articles) {
+    const grid = document.getElementById('grid');
+    if (!articles.length) {
+      grid.innerHTML = `<div class="state-grid">
+        <div class="state-icon">🔍</div>
+        <div class="state-title">No articles found</div>
+        <div class="state-msg">Try a different search or filter.</div>
+      </div>`;
+      return;
+    }
+
+    grid.innerHTML = articles.map(a => {
+      const desc = stripHtml(a.description || a.content || '').substring(0, 200);
+      const title = a.title || 'Untitled';
+      const date = formatDate(a.pubDate);
+      return `<a class="card" href="${a.link}" target="_blank" rel="noopener">
+        <div class="card-accent ${a.accentClass}"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source ${a.sourceClass}">${a.source}</span>
+            <span class="card-date">${date}</span>
+          </div>
+          <div class="card-title">${title}</div>
+          ${desc ? `<div class="card-desc">${desc}…</div>` : ''}
+        </div>
+        <div class="card-footer">Read article →</div>
+      </a>`;
+    }).join('');
+  }
+
+  function filterArticles() {
+    const q = document.getElementById('searchInput').value.toLowerCase().trim();
+    let filtered = activeFilter === 'all' ? allArticles : allArticles.filter(a => a.sourceId === activeFilter);
+    if (q) filtered = filtered.filter(a => (a.title || '').toLowerCase().includes(q) || stripHtml(a.description || '').toLowerCase().includes(q));
+    renderCards(filtered);
+  }
+
+  function setFilter(id, btn) {
+    activeFilter = id;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filterArticles();
+  }
+
+  async function loadFeeds() {
+    const btn = document.getElementById('refreshBtn');
+    btn.classList.add('spinning');
+
+    try {
+      const results = await Promise.allSettled(FEEDS.map(f => fetchFeed(f)));
+      allArticles = [];
+
+      results.forEach(r => {
+        if (r.status === 'fulfilled') allArticles.push(...r.value);
+      });
+
+      // Sort by date descending
+      allArticles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+      lastUpdated = new Date();
+      const total = allArticles.length;
+      document.getElementById('statusMsg').innerHTML =
+        `<strong>${total}</strong> articles · Updated ${lastUpdated.toLocaleTimeString('en-GB', {hour: '2-digit', minute: '2-digit'})}`;
+
+      filterArticles();
+    } catch (e) {
+      document.getElementById('grid').innerHTML = `<div class="state-grid">
+        <div class="state-icon">⚠️</div>
+        <div class="state-title">Could not load feeds</div>
+        <div class="state-msg">${e.message}. Check your connection and try refreshing.</div>
+      </div>`;
+    } finally {
+      btn.classList.remove('spinning');
+    }
+  }
+
+  function refresh() { loadFeeds(); }
+
+  // Auto-refresh every 20 minutes
+  loadFeeds();
+  setInterval(loadFeeds, 20 * 60 * 1000);
+</script>
+</body>
+</html>
