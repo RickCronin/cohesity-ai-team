@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: a new hunt for dark matter and Kenya’s case for going solar",
+      "link": "https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/",
+      "pubDate": "Thu, 18 Jun 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The search for dark matter has been blown wide open For decades, physicists have hunted for weakly interacting massive particles (WIMPs), a leading candidate for dark matter. But their search has&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Geoengineering still faces major practical challenges",
       "link": "https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/",
       "pubDate": "Thu, 18 Jun 2026 10:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "This man with ALS is “the first power user” of a brain implant that lets him speak",
-      "link": "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/",
-      "pubDate": "Mon, 15 Jun 2026 15:12:28 +0000",
-      "description": "Casey Harrell has had a set of electrodes embedded in his brain for almost three years. Harrell, who has amyotrophic lateral sclerosis (ALS) and is paralyzed, first used his brain-computer interface (BCI) to “speak” sentences with the help of a research team in 2023. Since then, Harrell has clocked thousands of hours of use. He&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "ChatGPT marketshare drops 📉, Vercel eve 🤖, Replit links Claude 🔌",
+      "link": "https://tldr.tech/ai/2026-06-18",
+      "pubDate": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "GLM-5.2 🤖, DeepSeek raises $7.4B 💰, Android MCP 📱",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "OpenAI private MCP 🤖, Cognition $26B valuation 💰, ElevenLabs Music v2 🎵",
-      "link": "https://tldr.tech/ai/2026-05-28",
-      "pubDate": "Thu, 28 May 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-18T10:39:08Z"
+  "updated": "2026-06-18T15:38:44Z"
 }
