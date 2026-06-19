@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "The Download: AI bottleneck debates, and BCI trials take off",
+      "link": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+      "pubDate": "Fri, 19 Jun 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A startup claims it broke through a bottleneck that’s holding back LLMs AI startup Subquadratic came out of stealth last month with a huge claim: it had solved a mathematical bottleneck&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "pubDate": "Fri, 19 Jun 2026 10:40:24 +0000",
+      "description": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The inevitable weakness of metrics",
       "link": "https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/",
       "pubDate": "Fri, 19 Jun 2026 09:00:00 +0000",
@@ -81,24 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Exclusive eBook: How AI is becoming the next military advisor",
-      "link": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/",
-      "pubDate": "Tue, 16 Jun 2026 20:35:02 +0000",
-      "description": "A collection of stories about how militaries are using AI models to make decisions. This subscriber-only eBook is a package of six stories that were originally published in MIT Technology Review between April 11, 2025, and April 21, 2026, and have been updated to reflect recent developments. Stories written by James O&#8217;Donnel by James O&#8217;Donnell&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: the first brain implant power user and South Korea’s AI obsession",
-      "link": "https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/",
-      "pubDate": "Tue, 16 Jun 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This man with ALS is the first “power user” of a brain implant that lets him speak Casey Harrell has had a set of electrodes embedded in his brain for almost&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "GPT-5.6 Tuesday 🤖, Claude Code artifacts 👨‍💻, Perplexity’s Brain memory 🧠",
+      "link": "https://tldr.tech/ai/2026-06-19",
+      "pubDate": "Fri, 19 Jun 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "ChatGPT marketshare drops 📉, Vercel eve 🤖, Replit links Claude 🔌",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Opus 4.8 🧠, Anthropic at $965B 💰, Microsoft’s coding model 👨‍💻",
-      "link": "https://tldr.tech/ai/2026-05-29",
-      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-19T10:46:57Z"
+  "updated": "2026-06-19T15:31:46Z"
 }
