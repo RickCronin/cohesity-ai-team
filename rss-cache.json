@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: the future of chipmaking and Anthropic’s government clash",
+      "link": "https://www.technologyreview.com/2026/06/23/1139483/the-download-chipmaking-future-asml-ai-anthropic-government-clash/",
+      "pubDate": "Tue, 23 Jun 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The $400 million machine powering the future of chipmaking It’s a bit of a schlep to get to the top of ASML’s newest machine. It’s about the size of a double-decker&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Elephant alert! AI warning systems aim to avoid deadly clashes",
       "link": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india/",
       "pubDate": "Tue, 23 Jun 2026 09:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The Download: a new hunt for dark matter and Kenya’s case for going solar",
-      "link": "https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/",
-      "pubDate": "Thu, 18 Jun 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The search for dark matter has been blown wide open For decades, physicists have hunted for weakly interacting massive particles (WIMPs), a leading candidate for dark matter. But their search has&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "SpaceX Colossus deal 🚀, GPT-5.5 Cyber launch 🛡️, Codex as workspace 🤖",
+      "link": "https://tldr.tech/ai/2026-06-23",
+      "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Orchestration models 🤖, DeepMind exodus 👋, loop engineering 🔄",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Anthropic IPO filing 📄, OpenAI on AWS ☁️, Perplexity search code 🔍",
-      "link": "https://tldr.tech/ai/2026-06-02",
-      "pubDate": "Tue, 02 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-23T12:38:23Z"
+  "updated": "2026-06-23T16:29:01Z"
 }
