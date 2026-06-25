@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Repositioning retail for the AI era",
+      "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "pubDate": "Thu, 25 Jun 2026 14:22:59 +0000",
+      "description": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law",
       "link": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
       "pubDate": "Thu, 25 Jun 2026 12:10:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Heads in the game",
-      "link": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
-      "pubDate": "Tue, 23 Jun 2026 21:00:00 +0000",
-      "description": "The Argentina v. France final of the 2022 Men’s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the game to break a tie, the referee had a critical decision to make—and fast. Lionel Messi,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️",
+      "link": "https://tldr.tech/ai/2026-06-25",
+      "pubDate": "Thu, 25 Jun 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Claude Tag 💬, Seedance 2.5 🎥, Mistral OCR 4 🧠",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "DeepSeek fundraising 💰, Meta model delays ⌛ , Gemma 4 12B 🤖",
-      "link": "https://tldr.tech/ai/2026-06-04",
-      "pubDate": "Thu, 04 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-25T12:26:20Z"
+  "updated": "2026-06-25T16:29:41Z"
 }
