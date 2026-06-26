@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+      "link": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "pubDate": "Fri, 26 Jun 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
       "link": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
       "pubDate": "Fri, 26 Jun 2026 09:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "This flying solar-powered platform could deliver better internet from the air",
-      "link": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
-      "pubDate": "Wed, 24 Jun 2026 09:00:00 +0000",
-      "description": "As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan.&#160; Once there, the roughly 200-foot-long craft, built by the New Mexico–based company Sceye, will park some 18 kilometers above the ocean’s surface, in a wispy-thin&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "US vs. OpenAI 🏛️, state of AI economy 🤖, scaling laws 📈",
+      "link": "https://tldr.tech/ai/2026-06-26",
+      "pubDate": "Fri, 26 Jun 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Anthropic Oceanus leaks 🤖, ChatGPT Dreaming 💭, recursive self improvement 🚀",
-      "link": "https://tldr.tech/ai/2026-06-05",
-      "pubDate": "Fri, 05 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-26T12:15:59Z"
+  "updated": "2026-06-26T16:21:41Z"
 }
