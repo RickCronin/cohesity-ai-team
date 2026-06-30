@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "The Download: AI “coworkers” and stratospheric internet",
+      "link": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
+      "pubDate": "Tue, 30 Jun 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "pubDate": "Tue, 30 Jun 2026 12:00:00 +0000",
+      "description": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&#160; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Building tech in the world’s secret R&D hub",
       "link": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
       "pubDate": "Tue, 30 Jun 2026 10:23:30 +0000",
@@ -81,24 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "What Europe’s heat wave means for the power grid",
-      "link": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/",
-      "pubDate": "Thu, 25 Jun 2026 10:00:00 +0000",
-      "description": "It’s been hard to look away from headlines about the European heat wave this week. Temperatures are breaking records across the continent, and the weather is threatening lives, shutting down schools, and in one particularly ironic case, forcing the cancellation of a London Climate Action Week event about extreme heat.  As the summer ramps up&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
-      "link": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
-      "pubDate": "Thu, 25 Jun 2026 10:00:00 +0000",
-      "description": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to come. For more than half&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Devin Fusion 💻, DeepSeek DSpark ⚡, economy of tokens 💰",
+      "link": "https://tldr.tech/ai/2026-06-30",
+      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "OpenAI S-1 🇺🇸, Siri AI 📱, Xiaomi Ultraspeed ⚡",
-      "link": "https://tldr.tech/ai/2026-06-09",
-      "pubDate": "Tue, 09 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-30T12:14:45Z"
+  "updated": "2026-06-30T16:24:39Z"
 }
