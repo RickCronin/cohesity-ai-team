@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Building tech in the world’s secret R&D hub",
+      "link": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
+      "pubDate": "Tue, 30 Jun 2026 10:23:30 +0000",
+      "description": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&#38;D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 people—roughly half the size of San Francisco. Over the past two decades, however, many of the world&#8217;s most influential technology companies&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "AI agents are not your “coworkers”",
       "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
       "pubDate": "Mon, 29 Jun 2026 18:00:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
       "pubDate": "Thu, 25 Jun 2026 10:00:00 +0000",
       "description": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to come. For more than half&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Europe’s extreme heat is shutting down power plants",
-      "link": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
-      "pubDate": "Wed, 24 Jun 2026 15:25:28 +0000",
-      "description": "Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won’t be online to help handle the load. On June 23, France saw its hottest day since record-keeping began in 1947.&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-06-30T09:51:04Z"
+  "updated": "2026-06-30T12:14:45Z"
 }
