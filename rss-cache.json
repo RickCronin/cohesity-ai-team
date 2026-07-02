@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "Achieving operational excellence with AI",
+      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "pubDate": "Thu, 02 Jul 2026 15:37:08 +0000",
+      "description": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "Teaching AI to run with the turbines",
+      "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "pubDate": "Thu, 02 Jul 2026 12:51:44 +0000",
+      "description": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: a startup has a solution for AI’s groupthink problem",
+      "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+      "pubDate": "Thu, 02 Jul 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Why California’s carbon manure math doesn’t add up",
       "link": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
       "pubDate": "Thu, 02 Jul 2026 09:00:00 +0000",
@@ -71,34 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Building tech in the world’s secret R&D hub",
-      "link": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
-      "pubDate": "Tue, 30 Jun 2026 10:23:30 +0000",
-      "description": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&#38;D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 people—roughly half the size of San Francisco. Over the past two decades, however, many of the world&#8217;s most influential technology companies&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "AI agents are not your “coworkers”",
-      "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-      "pubDate": "Mon, 29 Jun 2026 18:00:00 +0000",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Agent confidence on the technical frontier",
-      "link": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-      "pubDate": "Mon, 29 Jun 2026 14:44:01 +0000",
-      "description": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial outcomes their businesses seek. A prime opportunity for AI agents&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Gemini Flash upgrade ⚡️, Meta AI cloud 🌐, ZCode 👨‍💻",
+      "link": "https://tldr.tech/ai/2026-07-02",
+      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Claude Sonnet 5 🎭, Fable approved 🚀, Nano Banana 2 Lite 🍌",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Dario Amodei policy 🏛️, DiffusionGemma ⚡, WhatsApp to unblock bots 🤖",
-      "link": "https://tldr.tech/ai/2026-06-11",
-      "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-02T12:12:02Z"
+  "updated": "2026-07-02T16:07:32Z"
 }
