@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: a smoking “endgame” and a new Elizabeth Bear story",
+      "link": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
+      "pubDate": "Fri, 03 Jul 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about how their childhood is different from&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
       "link": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
       "pubDate": "Fri, 03 Jul 2026 09:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The Download: AI “coworkers” and stratospheric internet",
-      "link": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
-      "pubDate": "Tue, 30 Jun 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Meta Watermelon 🍉, Anthropic Samsung chips 🤝, autoresearch in practice 📈",
+      "link": "https://tldr.tech/ai/2026-07-03",
+      "pubDate": "Fri, 03 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Gemini Flash upgrade ⚡️, Meta AI cloud 🌐, ZCode 👨‍💻",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "OpenAI buys Ona 🤝, Anthropic backtracks 🔁, Xiaomi’s MiMo code 👨‍💻",
-      "link": "https://tldr.tech/ai/2026-06-12",
-      "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-03T10:43:23Z"
+  "updated": "2026-07-03T14:21:09Z"
 }
