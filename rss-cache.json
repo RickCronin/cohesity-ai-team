@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
+      "link": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
+      "pubDate": "Mon, 06 Jul 2026 13:00:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a matchmaking company a year ago. In a&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "South Korea’s hottest new bachelors are chip workers",
       "link": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
       "pubDate": "Mon, 06 Jul 2026 09:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
-      "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
-      "pubDate": "Wed, 01 Jul 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Claude Science is Anthropic’s newest flagship product At an event for pharmaceutical executives, biotech founders, and researchers yesterday, Anthropic announced Claude Science, a major new product intended to support scientific research&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Seedance 2.5 🎥, guide to Fable ✨, OpenAI preps GPT-5.6 🚀",
+      "link": "https://tldr.tech/ai/2026-07-06",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Meta Watermelon 🍉, Anthropic Samsung chips 🤝, autoresearch in practice 📈",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Anthropic Fable shutdown 🏛️, GLM-5.2 🤖, OpenRouter Fusion 🧠",
-      "link": "https://tldr.tech/ai/2026-06-15",
-      "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-06T10:49:24Z"
+  "updated": "2026-07-06T15:45:22Z"
 }
