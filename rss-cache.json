@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "xAI uploads codebases 👨‍💻, Prime Intellect verifiers 🧠, Sakana smart bricks 🧱",
+      "link": "https://tldr.tech/ai/2026-07-14",
+      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Claude Code browser 🌍, Cursor general agent 🤖, Claude Fable extension ⏳",
       "link": "https://tldr.tech/ai/2026-07-13",
       "pubDate": "Mon, 13 Jul 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "SpaceX Colossus deal 🚀, GPT-5.5 Cyber launch 🛡️, Codex as workspace 🤖",
-      "link": "https://tldr.tech/ai/2026-06-23",
-      "pubDate": "Tue, 23 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-14T13:57:20Z"
+  "updated": "2026-07-14T15:36:58Z"
 }
