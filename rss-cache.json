@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "DeepSeek IPO plans 📈, Kalshi compute markets ⚡,  Bonsai phone model 📱",
+      "link": "https://tldr.tech/ai/2026-07-15",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "xAI uploads codebases 👨‍💻, Prime Intellect verifiers 🧠, Sakana smart bricks 🧱",
       "link": "https://tldr.tech/ai/2026-07-14",
       "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Claude Tag 💬, Seedance 2.5 🎥, Mistral OCR 4 🧠",
-      "link": "https://tldr.tech/ai/2026-06-24",
-      "pubDate": "Wed, 24 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-15T13:53:40Z"
+  "updated": "2026-07-15T15:37:40Z"
 }
