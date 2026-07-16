@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️",
+      "link": "https://tldr.tech/ai/2026-07-16",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "DeepSeek IPO plans 📈, Kalshi compute markets ⚡,  Bonsai phone model 📱",
       "link": "https://tldr.tech/ai/2026-07-15",
       "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️",
-      "link": "https://tldr.tech/ai/2026-06-25",
-      "pubDate": "Thu, 25 Jun 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-16T14:05:53Z"
+  "updated": "2026-07-16T17:23:54Z"
 }
