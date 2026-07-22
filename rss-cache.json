@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
+      "pubDate": "Wed, 22 Jul 2026 09:00:00 +0000",
+      "description": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active” coronagraph, an instrument that effectively erases most of the light from a star during photography. It will allow astronomers&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: Chinese AI divides the White House, and a record copyright payout",
       "link": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
       "pubDate": "Tue, 21 Jul 2026 12:10:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
       "pubDate": "Thu, 16 Jul 2026 12:10:00 +0000",
       "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Why heat pumps are still so hot in the US",
-      "link": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
-      "pubDate": "Thu, 16 Jul 2026 10:00:00 +0000",
-      "description": "It feels as if it should be illegal to even think about heating appliances during the height of summer—seriously, these heat waves in New York have been brutal—but we need to talk about heat pumps. The appliances use electricity for heating, they’re incredibly efficient, and they’re on the rise. (For what it’s worth, many heat&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-22T06:34:22Z"
+  "updated": "2026-07-22T10:29:59Z"
 }
