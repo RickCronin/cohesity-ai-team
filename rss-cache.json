@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "The Download: energy transmission and US threats against Chinese AI",
+      "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "pubDate": "Thu, 23 Jul 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags  During a heat wave on July 3, New York State’s grid imported enough electricity from Canada to meet about&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "pubDate": "Thu, 23 Jul 2026 12:00:00 +0000",
+      "description": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The power line that could reshape New York’s grid is hitting snags",
       "link": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
       "pubDate": "Thu, 23 Jul 2026 09:00:00 +0000",
@@ -81,24 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The Download: perimenopause misinformation and China’s latest AI leap",
-      "link": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
-      "pubDate": "Fri, 17 Jul 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be considered taboo, but not anymore. Thanks at least in part to TV doctors and social media influencers,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
-      "link": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
-      "pubDate": "Fri, 17 Jul 2026 09:00:00 +0000",
-      "description": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age, but these days, both my algorithm and my conversations with friends increasingly swing toward perimenopause. Menopause is defined as the life stage that&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Cursor Router 🔀, OpenAI Presence 🤖, AMD + Anthropic deal 🤝🏻",
+      "link": "https://tldr.tech/ai/2026-07-23",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Gemini 3.6 Flash ✨, OpenAI security escape 🚨, Devin Outposts 🛰️",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Gemini Flash upgrade ⚡️, Meta AI cloud 🌐, ZCode 👨‍💻",
-      "link": "https://tldr.tech/ai/2026-07-02",
-      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-23T10:28:24Z"
+  "updated": "2026-07-23T14:15:06Z"
 }
