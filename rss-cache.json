@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "pubDate": "Thu, 23 Jul 2026 16:58:28 +0000",
+      "description": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: energy transmission and US threats against Chinese AI",
       "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
       "pubDate": "Thu, 23 Jul 2026 12:10:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
       "pubDate": "Mon, 20 Jul 2026 12:10:00 +0000",
       "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "AI is more likely than humans to form biases when hiring",
-      "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-      "pubDate": "Mon, 20 Jul 2026 08:39:01 +0000",
-      "description": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-23T14:15:06Z"
+  "updated": "2026-07-23T17:35:33Z"
 }
