@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The AI Hype Index: Unsexy AI",
+      "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "pubDate": "Wed, 29 Jul 2026 08:42:57 +0000",
+      "description": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: OpenAI’s predictable hack, and an AI stock sell-off",
       "link": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
       "pubDate": "Tue, 28 Jul 2026 12:10:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
       "pubDate": "Fri, 24 Jul 2026 17:03:55 +0000",
       "description": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that can be preserved&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
-      "link": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
-      "pubDate": "Fri, 24 Jul 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement”&#160; When it comes to organ donation, time is everything. As soon as an organ has been removed from a donor’s&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-29T06:35:58Z"
+  "updated": "2026-07-29T10:44:00Z"
 }
