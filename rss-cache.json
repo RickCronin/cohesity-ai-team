@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "link": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
+      "pubDate": "Thu, 30 Jul 2026 17:10:00 +0000",
+      "description": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once its treatment is rubber-stamped, the&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: tricking LLMs, and reviving geothermal plants",
       "link": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
       "pubDate": "Thu, 30 Jul 2026 12:10:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/",
       "pubDate": "Mon, 27 Jul 2026 14:24:42 +0000",
       "description": "Outside the small town of Paducah, Kentucky, a wealth of uranium is locked away in thousands of storage cylinders filled with waste material from a now-closed nuclear enrichment facility. Lasers could help get it out. A company called Global Laser Enrichment (GLE) is looking to reprocess this old material with a new technology called laser&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: lasers for nuclear fuel, and organ preservation advances",
-      "link": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
-      "pubDate": "Mon, 27 Jul 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How lasers could help provide fuel for nuclear reactors&#160; Nuclear power provides about 9% of global electricity today, and that fraction could tick up as countries look to build new reactors.&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-30T17:40:48Z"
+  "updated": "2026-07-30T19:40:56Z"
 }
