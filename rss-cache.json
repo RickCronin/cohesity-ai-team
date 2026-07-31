@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: Montana’s new experimental drug rules",
+      "link": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
+      "pubDate": "Fri, 31 Jul 2026 12:16:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward  As of this week in Montana, biotech companies whose drugs have been through preliminary testing—sometimes in as few as 10&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Montana’s new “right to try” law can’t come soon enough for some",
       "link": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
       "pubDate": "Fri, 31 Jul 2026 09:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "pubDate": "Mon, 27 Jul 2026 18:00:00 +0000",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Inkling-Small 🧠, GPT-5.6 price cuts 💸, Gemini Robotics 2 🤖",
+      "link": "https://tldr.tech/ai/2026-07-31",
+      "pubDate": "Fri, 31 Jul 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "OpenAI tops ARC-AGI-3 📈, GPT-5.6 efficiency ⚙️, AlphaFold team dissolution 🧬",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "GPT-5.6 🚀, Muse Spark 1.1 ✨, ChatGPT Work 💼",
-      "link": "https://tldr.tech/ai/2026-07-10",
-      "pubDate": "Fri, 10 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-07-31T10:44:33Z"
+  "updated": "2026-07-31T14:21:49Z"
 }
