@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+      "link": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
+      "pubDate": "Tue, 04 Aug 2026 12:14:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Trump’s AI protectionism has come for robotics   —James O’Donnell&#160; Humanoid robots usually elicit more cringe than awe: They&#160;stumble,&#160;kick children, and despite advances are still worse at&#160;using their hands&#160;than my toddler. It’s&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Trump’s AI protectionism has come for robotics",
       "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "pubDate": "Mon, 03 Aug 2026 18:43:30 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The Download: a chip talent battle, and deflating AI hype",
-      "link": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
-      "pubDate": "Wed, 29 Jul 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix   Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s been clocking out on time and heading&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️",
+      "link": "https://tldr.tech/ai/2026-08-04",
+      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "xAI uploads codebases 👨‍💻, Prime Intellect verifiers 🧠, Sakana smart bricks 🧱",
-      "link": "https://tldr.tech/ai/2026-07-14",
-      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-04T10:44:36Z"
+  "updated": "2026-08-04T14:28:03Z"
 }
