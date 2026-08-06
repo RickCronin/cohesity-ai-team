@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+      "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+      "pubDate": "Thu, 06 Aug 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Puzzle Corner",
       "link": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
       "pubDate": "Wed, 05 Aug 2026 14:56:29 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
-      "link": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
-      "pubDate": "Thu, 30 Jul 2026 17:10:00 +0000",
-      "description": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once its treatment is rubber-stamped, the&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩",
+      "link": "https://tldr.tech/ai/2026-08-06",
+      "pubDate": "Thu, 06 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️",
-      "link": "https://tldr.tech/ai/2026-07-16",
-      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-06T10:44:18Z"
+  "updated": "2026-08-06T14:24:39Z"
 }
