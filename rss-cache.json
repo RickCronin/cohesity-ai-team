@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠",
+      "link": "https://tldr.tech/ai/2026-08-11",
+      "pubDate": "Tue, 11 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀",
       "link": "https://tldr.tech/ai/2026-08-10",
       "pubDate": "Mon, 10 Aug 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Ramp Router ⚡, Kimi Work 💼 , AMD Helios 🧱",
-      "link": "https://tldr.tech/ai/2026-07-21",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-11T13:17:10Z"
+  "updated": "2026-08-11T15:03:05Z"
 }
