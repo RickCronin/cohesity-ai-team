@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "Cursor’s GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈",
+      "link": "https://tldr.tech/ai/2026-08-12",
+      "pubDate": "Wed, 12 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠",
       "link": "https://tldr.tech/ai/2026-08-11",
       "pubDate": "Tue, 11 Aug 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Gemini 3.6 Flash ✨, OpenAI security escape 🚨, Devin Outposts 🛰️",
-      "link": "https://tldr.tech/ai/2026-07-22",
-      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-12T13:21:10Z"
+  "updated": "2026-08-12T15:02:37Z"
 }
