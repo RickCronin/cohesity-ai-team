@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "GLM-5.3 🤖, Stripe OpenRouter deal 💰, AI agent consensus 🤝",
+      "link": "https://tldr.tech/ai/2026-08-17",
+      "pubDate": "Mon, 17 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Gemini 3.7 🤖, GPT-5.6 Sol Ultrafast ⚡, Anthropic $2T IPO 💰",
       "link": "https://tldr.tech/ai/2026-08-14",
       "pubDate": "Fri, 14 Aug 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Claude Opus 5 🧠, inside OpenAI’s hack 👨‍💻, NVIDIA open weights 🔓",
-      "link": "https://tldr.tech/ai/2026-07-27",
-      "pubDate": "Mon, 27 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-17T12:53:30Z"
+  "updated": "2026-08-17T14:32:56Z"
 }
