@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨",
+      "link": "https://tldr.tech/ai/2026-08-19",
+      "pubDate": "Wed, 19 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Cursor Origin 👨‍💻, Anthropic $65B revenue 💰, deadline dividend scaling 📈",
       "link": "https://tldr.tech/ai/2026-08-18",
       "pubDate": "Tue, 18 Aug 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "AI slowdown pact ⏸️, Personal superintelligence access 🌍, Grok Build Mode 🛠️",
-      "link": "https://tldr.tech/ai/2026-07-29",
-      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-19T12:56:15Z"
+  "updated": "2026-08-19T14:38:46Z"
 }
