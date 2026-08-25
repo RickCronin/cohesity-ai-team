@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "Nvidia’s Groq chip ⚡, frontier economics 💰, Ox Alpha mystery 🕵️",
+      "link": "https://tldr.tech/ai/2026-08-25",
+      "pubDate": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "DeepSeek Flash Vision 👀, Claude Mythos security 🛡️, inside Grok Bot 🤖",
       "link": "https://tldr.tech/ai/2026-08-24",
       "pubDate": "Mon, 24 Aug 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️",
-      "link": "https://tldr.tech/ai/2026-08-04",
-      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-25T12:55:59Z"
+  "updated": "2026-08-25T14:51:39Z"
 }
