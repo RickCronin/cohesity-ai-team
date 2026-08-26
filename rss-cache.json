@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "link": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "pubDate": "Wed, 26 Aug 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids&#8217; use of technology was once a subcurrent, it has become a raging flood. Countries around the world are banning children from&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Raised on AI",
       "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
       "pubDate": "Wed, 26 Aug 2026 09:00:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
       "pubDate": "Tue, 25 Aug 2026 21:00:00 +0000",
       "description": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough of a response, and the approach some researchers have taken to strengthening it—delivering the vaccine along with immune-stimulating molecules called cytokines—can&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Taking your temperature from the inside",
-      "link": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
-      "pubDate": "Tue, 25 Aug 2026 21:00:00 +0000",
-      "description": "Oral and forehead thermometers may not accurately capture a person’s core body temperature, and the few ingestible temperature sensors on the market are so big they are hard to swallow and risk obstructing the GI tract. But MIT engineers created one that can send continuous temperature updates at a size of just six by four&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-26T10:39:31Z"
+  "updated": "2026-08-26T13:01:54Z"
 }
