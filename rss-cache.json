@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "OpenAI Cursor split 💔, self-improving AI 🧠, GPT-6 Astra 🚀",
+      "link": "https://tldr.tech/ai/2026-08-31",
+      "pubDate": "Mon, 31 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Gemini Omni 1.1 🎬, Cohere Parse 📄, Codex persistent mode 👨‍💻",
       "link": "https://tldr.tech/ai/2026-08-28",
       "pubDate": "Fri, 28 Aug 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀",
-      "link": "https://tldr.tech/ai/2026-08-10",
-      "pubDate": "Mon, 10 Aug 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-08-31T08:27:39Z"
+  "updated": "2026-08-31T17:28:52Z"
 }
