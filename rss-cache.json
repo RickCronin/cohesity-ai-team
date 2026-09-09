@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "pubDate": "Wed, 09 Sep 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Under normal circumstances, that would&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Batteries just broke another record in the US",
       "link": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
       "pubDate": "Wed, 09 Sep 2026 09:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Architecting memory and storage in the AI era",
-      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "pubDate": "Fri, 04 Sep 2026 18:39:19 +0000",
-      "description": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬",
+      "link": "https://tldr.tech/ai/2026-09-09",
+      "pubDate": "Wed, 09 Sep 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨",
-      "link": "https://tldr.tech/ai/2026-08-19",
-      "pubDate": "Wed, 19 Aug 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-09-09T11:03:02Z"
+  "updated": "2026-09-09T16:19:01Z"
 }
