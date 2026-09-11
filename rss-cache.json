@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Roundtables: Will AI really kill us all?",
+      "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "pubDate": "Fri, 11 Sep 2026 20:05:06 +0000",
+      "description": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: biotech’s future and cheaper, cleaner steel",
       "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
       "pubDate": "Fri, 11 Sep 2026 12:10:00 +0000",
@@ -85,16 +95,6 @@
       "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
       "pubDate": "Wed, 09 Sep 2026 12:10:00 +0000",
       "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Under normal circumstances, that would&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Batteries just broke another record in the US",
-      "link": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
-      "pubDate": "Wed, 09 Sep 2026 09:00:00 +0000",
-      "description": "Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of about 700,000 homes. The surge is putting the country on a trajectory to see 71 gigawatt-hours of&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-09-11T16:13:23Z"
+  "updated": "2026-09-11T20:46:46Z"
 }
