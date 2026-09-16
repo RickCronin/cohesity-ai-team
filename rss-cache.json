@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "Building the materials foundation for AI",
+      "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "pubDate": "Wed, 16 Sep 2026 12:47:34 +0000",
+      "description": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "pubDate": "Wed, 16 Sep 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess AI’s impact on the economy over the next few years,&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Roundtables: Could AI really kill us all?",
       "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
       "pubDate": "Tue, 15 Sep 2026 17:47:51 +0000",
@@ -75,26 +95,6 @@
       "link": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
       "pubDate": "Mon, 14 Sep 2026 12:10:00 +0000",
       "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: biotech’s future and cheaper, cleaner steel",
-      "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
-      "pubDate": "Fri, 11 Sep 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the brightest and best young minds&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Meet the under-35s shaping the future of biotech",
-      "link": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
-      "pubDate": "Fri, 11 Sep 2026 09:00:00 +0000",
-      "description": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list includes nine people who are&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-09-16T07:28:50Z"
+  "updated": "2026-09-16T13:18:19Z"
 }
