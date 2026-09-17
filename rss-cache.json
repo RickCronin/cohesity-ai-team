@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: mice with part-human brains and climate tech innovators",
+      "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+      "pubDate": "Thu, 17 Sep 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed,&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Meet the innovators under 35 shaping climate tech",
       "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
       "pubDate": "Thu, 17 Sep 2026 10:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Donated livers can be made biologically younger",
-      "link": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
-      "pubDate": "Mon, 14 Sep 2026 16:11:42 +0000",
-      "description": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that has been growing&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Claude + Cowork merge 🛠️, ChatGPT sponsored agents 💰, harness tax 🤖",
+      "link": "https://tldr.tech/ai/2026-09-17",
+      "pubDate": "Thu, 17 Sep 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Jev ⚡, Periodic Neon 🧬, Gemini 3.8 Live 💬",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "GLM-5.3 Flash ⚡, Claudeforce 🤝, NVIDIA revenue surge 📈",
-      "link": "https://tldr.tech/ai/2026-08-27",
-      "pubDate": "Thu, 27 Aug 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-09-17T11:21:59Z"
+  "updated": "2026-09-17T16:39:20Z"
 }
