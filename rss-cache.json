@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "pubDate": "Tue, 22 Sep 2026 13:42:05 +0000",
+      "description": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "pubDate": "Tue, 22 Sep 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "Don’t be fooled by this summer of AI hype",
       "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
       "pubDate": "Tue, 22 Sep 2026 11:04:51 +0000",
@@ -81,24 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
-      "link": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
-      "pubDate": "Fri, 18 Sep 2026 09:00:00 +0000",
-      "description": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress should be slowed. OpenAI CEO Sam Altman responded on X: “I agree with Dario that we need to pace the&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: mice with part-human brains and climate tech innovators",
-      "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
-      "pubDate": "Thu, 17 Sep 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖",
+      "link": "https://tldr.tech/ai/2026-09-22",
+      "pubDate": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Muse connectors 🤖, Meta SAM 3.1 🖼️, Gemini hacks companies 🔓",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Muse Code 👨‍💻, Runway Solaris ☀️, OpenClaw 2.0 🤖",
-      "link": "https://tldr.tech/ai/2026-09-01",
-      "pubDate": "Tue, 01 Sep 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-09-22T11:17:54Z"
+  "updated": "2026-09-22T16:40:08Z"
 }
