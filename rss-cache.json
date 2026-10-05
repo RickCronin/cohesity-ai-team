@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "pubDate": "Mon, 05 Oct 2026 13:29:32 +0000",
+      "description": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
+      "link": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+      "pubDate": "Mon, 05 Oct 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. People really hate AI, so why can’t they get enough? —Will Douglas Heaven Over the summer I talked to the CEO of Springboards, a startup building an LLM designed to come&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "People really hate AI, so why can’t they get enough?",
+      "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+      "pubDate": "Mon, 05 Oct 2026 08:00:00 +0000",
+      "description": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "EmTech Future 2026: When AI Meets Everything",
       "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
       "pubDate": "Mon, 05 Oct 2026 04:00:00 +0000",
@@ -71,34 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "How smaller, distributed batteries could help the grid",
-      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
-      "pubDate": "Thu, 01 Oct 2026 10:00:00 +0000",
-      "description": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
-      "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-      "pubDate": "Wed, 30 Sep 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-      "pubDate": "Wed, 30 Sep 2026 10:40:30 +0000",
-      "description": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Prime Inference 📈, agent population 📈, Claude academy 🎓",
+      "link": "https://tldr.tech/ai/2026-10-05",
+      "pubDate": "Mon, 05 Oct 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Decision models 🤖, Claude-shaped science 🧪, OpenAI safety firings 🚨",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Amodei slows frontier 🛑, ARC-AGI-4 🧠, Cursor Projects 👨‍💻",
-      "link": "https://tldr.tech/ai/2026-09-14",
-      "pubDate": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-10-05T05:01:21Z"
+  "updated": "2026-10-05T14:10:16Z"
 }
