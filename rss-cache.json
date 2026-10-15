@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "pubDate": "Thu, 15 Oct 2026 12:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "How much more can nuclear power plants give?",
       "link": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
       "pubDate": "Thu, 15 Oct 2026 10:00:00 +0000",
@@ -91,14 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "What it would take to build a city on the moon",
-      "link": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
-      "pubDate": "Mon, 12 Oct 2026 09:37:02 +0000",
-      "description": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nations—plus a&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁",
+      "link": "https://tldr.tech/ai/2026-10-15",
+      "pubDate": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "OpenAI dev arrested 🚨, Pi API 🤖, OpenCode 2.0 🧑‍💻",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Gemini TTS 🗣️, Claude’s novel enzyme 🧬, Google private memory 🔒",
-      "link": "https://tldr.tech/ai/2026-09-24",
-      "pubDate": "Thu, 24 Sep 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-10-15T11:10:36Z"
+  "updated": "2026-10-15T16:41:28Z"
 }
