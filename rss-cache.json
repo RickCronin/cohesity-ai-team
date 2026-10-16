@@ -14,7 +14,7 @@
       "title": "This implant can restore sight for patients with macular degeneration",
       "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "pubDate": "Fri, 16 Oct 2026 09:00:00 +0000",
-      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients&#8230;",
+      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -99,6 +99,16 @@
       "sourceId": "mit",
       "accentClass": "accent-mit",
       "sourceClass": "source-mit"
+    },
+    {
+      "title": "Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡",
+      "link": "https://tldr.tech/ai/2026-10-16",
+      "pubDate": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰",
-      "link": "https://tldr.tech/ai/2026-09-25",
-      "pubDate": "Fri, 25 Sep 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-10-16T13:07:02Z"
+  "updated": "2026-10-16T17:54:21Z"
 }
