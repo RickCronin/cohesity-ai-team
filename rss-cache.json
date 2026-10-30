@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "Mistral Large 4 OSS 🧠, agent swarm behavior 🤖, Sam Altman interview 🍺f",
+      "link": "https://tldr.tech/ai/2026-10-30",
+      "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓",
       "link": "https://tldr.tech/ai/2026-10-29",
       "pubDate": "Thu, 29 Oct 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠",
-      "link": "https://tldr.tech/ai/2026-10-09",
-      "pubDate": "Fri, 09 Oct 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-10-30T12:30:55Z"
+  "updated": "2026-10-30T19:04:35Z"
 }
