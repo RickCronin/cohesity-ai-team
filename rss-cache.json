@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "What’s next for US energy policy after the midterm elections?",
+      "link": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
+      "pubDate": "Wed, 04 Nov 2026 17:08:00 +0000",
+      "description": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two years ago.&#160;&#160;&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: blended meat, restored sight, and the agentic web",
+      "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "pubDate": "Wed, 04 Nov 2026 13:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "Securing the agentic enterprise with data lineage",
+      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "pubDate": "Wed, 04 Nov 2026 13:00:00 +0000",
+      "description": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
       "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
       "pubDate": "Tue, 03 Nov 2026 13:10:00 +0000",
@@ -71,34 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
-      "link": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
-      "pubDate": "Fri, 30 Oct 2026 11:30:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
-      "link": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
-      "pubDate": "Fri, 30 Oct 2026 09:00:00 +0000",
-      "description": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new report suggests that the global incidence of anorexia nervosa and bulimia nervosa shot up between 1990 and 2023—by a whopping 71%. By 2023,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: AI agent tracking and climate feedback loops",
-      "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
-      "pubDate": "Thu, 29 Oct 2026 12:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "Siri AI developer 🍎, Gemini Notebook API 👨‍💻, provable inference ⚡",
+      "link": "https://tldr.tech/ai/2026-11-04",
+      "pubDate": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Claude Message Threads 🧵, Astra 6.2 spotted 👀, Anthropic nears RSI 🔄",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "OpenAI dev arrested 🚨, Pi API 🤖, OpenCode 2.0 🧑‍💻",
-      "link": "https://tldr.tech/ai/2026-10-14",
-      "pubDate": "Wed, 14 Oct 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-11-04T08:51:01Z"
+  "updated": "2026-11-04T17:52:14Z"
 }
