@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "The AI Hype Index: AI is everywhere",
+      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "pubDate": "Wed, 18 Nov 2026 14:42:44 +0000",
+      "description": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: AI learns to smell and hydropower struggles",
+      "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
+      "pubDate": "Wed, 18 Nov 2026 13:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "This smell startup says its AI nose is as good as a human’s",
       "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
       "pubDate": "Wed, 18 Nov 2026 10:20:30 +0000",
@@ -81,24 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "Building AI that can work across the enterprise",
-      "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "pubDate": "Mon, 16 Nov 2026 13:00:00 +0000",
-      "description": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
-      "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
-      "pubDate": "Fri, 13 Nov 2026 13:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "GPT-6.2 Astra 🧠, Microsoft’s seven models 🚀, Replit Missions 🤖",
+      "link": "https://tldr.tech/ai/2026-11-18",
+      "pubDate": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Genie 4 worlds 🌍, Frontier Code 2 👨‍💻, AI drug discovery 🧬",
-      "link": "https://tldr.tech/ai/2026-10-28",
-      "pubDate": "Wed, 28 Oct 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-11-18T12:50:30Z"
+  "updated": "2026-11-18T21:45:04Z"
 }
