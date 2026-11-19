@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "A human liver has been kept alive outside the body for a record seven weeks",
+      "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+      "pubDate": "Thu, 19 Nov 2026 12:00:00 +0000",
+      "description": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inventor Carlo Pulitano connected a donated liver to a&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "What a billion-dollar deal says about the US battery market",
+      "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+      "pubDate": "Thu, 19 Nov 2026 11:00:00 +0000",
+      "description": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The AI Hype Index: AI is everywhere",
       "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
       "pubDate": "Wed, 18 Nov 2026 14:42:44 +0000",
@@ -75,26 +95,6 @@
       "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
       "pubDate": "Mon, 16 Nov 2026 18:38:47 +0000",
       "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "pubDate": "Mon, 16 Nov 2026 16:04:28 +0000",
-      "description": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: testing tech promises and searching for cognitive immortality",
-      "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-      "pubDate": "Mon, 16 Nov 2026 13:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;",
       "source": "MIT Tech Review",
       "sourceId": "mit",
       "accentClass": "accent-mit",
@@ -251,5 +251,5 @@
       "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-11-19T03:01:23Z"
+  "updated": "2026-11-19T12:41:18Z"
 }
