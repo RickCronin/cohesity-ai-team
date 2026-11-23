@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "pubDate": "Mon, 23 Nov 2026 17:36:08 +0000",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "pubDate": "Mon, 23 Nov 2026 13:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+      "link": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+      "pubDate": "Mon, 23 Nov 2026 11:00:00 +0000",
+      "description": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "The most misunderstood graph in AI just got a major update",
       "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
       "pubDate": "Fri, 20 Nov 2026 18:15:15 +0000",
@@ -71,34 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "This smell startup says its AI nose is as good as a human’s",
-      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "pubDate": "Wed, 18 Nov 2026 10:20:30 +0000",
-      "description": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
-      "link": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
-      "pubDate": "Tue, 17 Nov 2026 18:46:47 +0000",
-      "description": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado explore possible paths to keep your mind going, including gradual brain&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "Hydropower hit record lows in the US Southwest this summer",
-      "link": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
-      "pubDate": "Tue, 17 Nov 2026 17:52:10 +0000",
-      "description": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released through turbines, generating electricity on demand. But an&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐",
+      "link": "https://tldr.tech/ai/2026-11-23",
+      "pubDate": "Mon, 23 Nov 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "Gemini tool retrieval 🔧, Stripe evals methods 👨‍💻, agent swarms 🐝",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️",
-      "link": "https://tldr.tech/ai/2026-11-02",
-      "pubDate": "Mon, 02 Nov 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-11-23T06:53:21Z"
+  "updated": "2026-11-23T19:59:16Z"
 }
