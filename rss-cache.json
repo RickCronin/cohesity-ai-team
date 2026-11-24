@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "pubDate": "Tue, 24 Nov 2026 15:15:16 +0000",
+      "description": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "The Download: AI’s gas power boom and a consciousness reality check",
+      "link": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
+      "pubDate": "Tue, 24 Nov 2026 13:10:00 +0000",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to connect to the grid, a wait that&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
+      "title": "Data centers are getting their own natural gas power plants",
+      "link": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+      "pubDate": "Tue, 24 Nov 2026 11:00:00 +0000",
+      "description": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI boom.&#160;&#160; xAI’s&#8230;",
+      "source": "MIT Tech Review",
+      "sourceId": "mit",
+      "accentClass": "accent-mit",
+      "sourceClass": "source-mit"
+    },
+    {
       "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
       "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
       "pubDate": "Mon, 23 Nov 2026 17:36:08 +0000",
@@ -71,34 +101,14 @@
       "sourceClass": "source-mit"
     },
     {
-      "title": "What a billion-dollar deal says about the US battery market",
-      "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
-      "pubDate": "Thu, 19 Nov 2026 11:00:00 +0000",
-      "description": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The AI Hype Index: AI is everywhere",
-      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "pubDate": "Wed, 18 Nov 2026 14:42:44 +0000",
-      "description": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
-    },
-    {
-      "title": "The Download: AI learns to smell and hydropower struggles",
-      "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-      "pubDate": "Wed, 18 Nov 2026 13:10:00 +0000",
-      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”&#8230;",
-      "source": "MIT Tech Review",
-      "sourceId": "mit",
-      "accentClass": "accent-mit",
-      "sourceClass": "source-mit"
+      "title": "GLM-5.4 loops 🔁, Claude Ship 🚢, OpenAI secures Linux 🔒",
+      "link": "https://tldr.tech/ai/2026-11-24",
+      "pubDate": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
     },
     {
       "title": "OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Claude Message Threads 🧵, Astra 6.2 spotted 👀, Anthropic nears RSI 🔄",
-      "link": "https://tldr.tech/ai/2026-11-03",
-      "pubDate": "Tue, 03 Nov 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-11-24T04:42:01Z"
+  "updated": "2026-11-24T17:19:22Z"
 }
