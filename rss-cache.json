@@ -101,6 +101,16 @@
       "sourceClass": "source-mit"
     },
     {
+      "title": "OpenAI cost controls 💰, measuring RSI 📈, looped transformers ➰",
+      "link": "https://tldr.tech/ai/2026-11-27",
+      "pubDate": "Fri, 27 Nov 2026 00:00:00 GMT",
+      "description": "",
+      "source": "TLDR AI",
+      "sourceId": "tldr",
+      "accentClass": "accent-tldr",
+      "sourceClass": "source-tldr"
+    },
+    {
       "title": "Opus 5.6 testing 🤖, OpenAI private Inference 🔒, Jev is probably Qwen 📝",
       "link": "https://tldr.tech/ai/2026-11-26",
       "pubDate": "Thu, 26 Nov 2026 00:00:00 GMT",
@@ -239,17 +249,7 @@
       "sourceId": "tldr",
       "accentClass": "accent-tldr",
       "sourceClass": "source-tldr"
-    },
-    {
-      "title": "Anthropic R&D accelerates 📈, GPT-6 Cyber 🔐, Inkling 2 Small 🧠",
-      "link": "https://tldr.tech/ai/2026-11-06",
-      "pubDate": "Fri, 06 Nov 2026 00:00:00 GMT",
-      "description": "",
-      "source": "TLDR AI",
-      "sourceId": "tldr",
-      "accentClass": "accent-tldr",
-      "sourceClass": "source-tldr"
     }
   ],
-  "updated": "2026-11-27T13:44:04Z"
+  "updated": "2026-11-27T22:34:36Z"
 }
